@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[RSS Feed]]></title>
+        <description><![CDATA[Welcome to this blog posts!]]></description>
+        <link>localhost:3000</link>
+        <image>
+            <url>localhost:3000/logo.png</url>
+            <title>RSS Feed</title>
+            <link>localhost:3000</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 17 Mar 2023 13:24:45 GMT</lastBuildDate>
+        <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 17 Mar 2023 13:24:45 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2023]]></copyright>
+        <item>
+            <title><![CDATA[如果能回到 15 岁]]></title>
+            <link>localhost:3000/post/backto15</link>
+            <guid isPermaLink="true">localhost:3000/post/backto15</guid>
+            <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLM-01]]></title>
+            <link>localhost:3000/post/test-test</link>
+            <guid isPermaLink="true">localhost:3000/post/test-test</guid>
+            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT随想]]></title>
+            <link>localhost:3000/post/ChatGPT</link>
+            <guid isPermaLink="true">localhost:3000/post/ChatGPT</guid>
+            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
