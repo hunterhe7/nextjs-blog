@@ -14,7 +14,7 @@ export default (meta) =>
           <layout.Main>
             <layout.Headline head="About" />
             <layout.Navbar url={meta.url} />
-            {children}
+            <div className="prose">{children}</div>
             <layout.Footer />
           </layout.Main>
         </>

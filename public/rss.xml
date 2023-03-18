@@ -9,15 +9,15 @@
             <link>huntehe.info</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Mar 2023 10:00:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Mar 2023 10:10:29 GMT</lastBuildDate>
         <atom:link href="huntehe.info/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Mar 2023 10:00:06 GMT</pubDate>
+        <pubDate>Sat, 18 Mar 2023 10:10:29 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023]]></copyright>
         <item>
-            <title><![CDATA[ChatGPT随想]]></title>
+            <title><![CDATA[ChatGPT]]></title>
             <link>huntehe.info/post/ChatGPT</link>
             <guid isPermaLink="true">huntehe.info/post/ChatGPT</guid>
-            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
