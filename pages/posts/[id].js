@@ -3,25 +3,27 @@ import { MDXRemote } from "next-mdx-remote"; // 渲染有组件的MDX文件
 
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
-import components from "../../components";
+
+import layout from "../../components/layout";
+import theme from "../../components/theme";
 
 export default function Post({ source, frontMatter }) {
-  console.log("source:", source);
   return (
-    // {/* 可以改写一些markdown的样式 */}
-    <MDXProvider components={components}> // 这个放改写的样式
+    <MDXProvider components={{ ...layout, ...theme }} className="prose">
       <>
         <Head>
           <title>{frontMatter.title}</title>
         </Head>
-        <components.Main>
-          <components.Headline head={frontMatter.title} />
+        <layout.Main>
+          <layout.Headline head={frontMatter.title} />
           <div>
-            <components.Date dateString={frontMatter.date} />
+            <layout.Date dateString={frontMatter.date} />
           </div>
-          <MDXRemote {...source} />
-          <components.Footer />
-        </components.Main>
+          <div className="prose">
+            <MDXRemote {...source} />
+          </div>
+          <layout.Footer />
+        </layout.Main>
       </>
     </MDXProvider>
   );

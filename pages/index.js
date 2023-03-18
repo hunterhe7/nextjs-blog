@@ -1,11 +1,7 @@
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
 import generateRssFeed from "../lib/rss";
-import Main from "../components/main";
-import Headline from "../components/headline";
-import Navbar from "../components/navbar";
-import ArticleList from "../components/articlelist";
-import Footer from "../components/footer";
+import layout from "../components/layout";
 
 export default function Home({ allPostsData }) {
   return (
@@ -14,15 +10,15 @@ export default function Home({ allPostsData }) {
         <title>Thoughts</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Main>
-        <Headline head="Thoughts" />
-        <Navbar url="/" />
-        <ArticleList allPostsData={allPostsData} />
-        <Footer />
-      </Main>
+      <layout.Main>
+        <layout.Headline head="Thoughts" />
+        <layout.Navbar url="/" />
+        <layout.ArticleList allPostsData={allPostsData} />
+        <layout.Footer />
+      </layout.Main>
     </>
   );
 }

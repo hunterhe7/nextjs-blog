@@ -1,7 +1,7 @@
 import { MDXProvider } from "@mdx-js/react";
 
 import Head from "next/head";
-import components from "../components";
+import layout from "../components/layout";
 
 export default (meta) =>
   ({ children }) =>
@@ -11,13 +11,12 @@ export default (meta) =>
           <Head>
             <title>{meta.url}</title>
           </Head>
-
-          <components.Main>
-            <components.Headline head="About" />
-            <components.Navbar url={meta.url} />
+          <layout.Main>
+            <layout.Headline head="About" />
+            <layout.Navbar url={meta.url} />
             {children}
-            <components.Footer />
-          </components.Main>
+            <layout.Footer />
+          </layout.Main>
         </>
       </MDXProvider>
     );
