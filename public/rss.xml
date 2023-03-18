@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Hunter He]]></title>
+        <title><![CDATA[Hunter's Home]]></title>
         <description><![CDATA[Welcome to this blog posts!]]></description>
         <link>huntehe.info</link>
         <image>
-            <url>huntehe.info/logo.png</url>
-            <title>Hunter He</title>
+            <url>huntehe.info/favicon.ico</url>
+            <title>Hunter&apos;s Home</title>
             <link>huntehe.info</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Mar 2023 10:18:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Mar 2023 13:14:30 GMT</lastBuildDate>
         <atom:link href="huntehe.info/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Mar 2023 10:18:00 GMT</pubDate>
+        <pubDate>Sat, 18 Mar 2023 13:14:30 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023]]></copyright>
         <item>
+            <title><![CDATA[Humanity]]></title>
+            <link>huntehe.info/post/humanity</link>
+            <guid isPermaLink="true">huntehe.info/post/humanity</guid>
+            <pubDate>Sat, 18 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ChatGPT]]></title>
-            <link>huntehe.info/post/ChatGPT</link>
-            <guid isPermaLink="true">huntehe.info/post/ChatGPT</guid>
+            <link>huntehe.info/post/chatgpt</link>
+            <guid isPermaLink="true">huntehe.info/post/chatgpt</guid>
             <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>

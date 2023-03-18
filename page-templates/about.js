@@ -9,7 +9,7 @@ export default (meta) =>
       <MDXProvider>
         <>
           <Head>
-            <title>{meta.url}</title>
+            <title>{meta.title}</title>
           </Head>
           <layout.Main>
             <layout.Headline head="About" />
