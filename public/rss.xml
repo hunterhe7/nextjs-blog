@@ -2,27 +2,27 @@
     <channel>
         <title><![CDATA[Hunter's Home]]></title>
         <description><![CDATA[Welcome to this blog posts!]]></description>
-        <link>huntehe.info</link>
+        <link>hunterhe.info</link>
         <image>
-            <url>huntehe.info/favicon.ico</url>
+            <url>hunterhe.info/favicon.ico</url>
             <title>Hunter&apos;s Home</title>
-            <link>huntehe.info</link>
+            <link>hunterhe.info</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Mar 2023 13:14:30 GMT</lastBuildDate>
-        <atom:link href="huntehe.info/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Mar 2023 13:14:30 GMT</pubDate>
+        <lastBuildDate>Sat, 18 Mar 2023 13:18:16 GMT</lastBuildDate>
+        <atom:link href="hunterhe.info/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 18 Mar 2023 13:18:16 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023]]></copyright>
         <item>
             <title><![CDATA[Humanity]]></title>
-            <link>huntehe.info/post/humanity</link>
-            <guid isPermaLink="true">huntehe.info/post/humanity</guid>
+            <link>hunterhe.info/post/humanity</link>
+            <guid isPermaLink="true">hunterhe.info/post/humanity</guid>
             <pubDate>Sat, 18 Mar 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ChatGPT]]></title>
-            <link>huntehe.info/post/chatgpt</link>
-            <guid isPermaLink="true">huntehe.info/post/chatgpt</guid>
+            <link>hunterhe.info/post/chatgpt</link>
+            <guid isPermaLink="true">hunterhe.info/post/chatgpt</guid>
             <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
