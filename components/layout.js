@@ -2,7 +2,9 @@ import Date from "./helper/date";
 import MyLink from "./helper/mylink";
 
 export function Main({ children }) {
-  return <div className="mx-auto max-w-2xl py-20">{children}</div>;
+  return (
+    <div className="container mx-auto max-w-2xl py-20 px-5">{children}</div>
+  );
 }
 
 export function Headline({ head }) {
