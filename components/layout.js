@@ -62,7 +62,9 @@ export function Footer() {
           <a href="https://github.com/huntermatrix">Github</a>
         </li>
         <li className="basis-20">
-          <a href="https://movie.douban.com/people/147232795/">Douban</a>
+          <a href="https://neodb.social/users/huntermatrix@mastodon.world/">
+            NeoDB
+          </a>
         </li>
         <li className="border-b">
           <a href="/rss.xml">RSS</a>
