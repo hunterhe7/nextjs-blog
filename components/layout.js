@@ -39,7 +39,7 @@ export function ArticleList({ allPostsData }) {
             >
               <span className="font-mono">{title}</span>
               <div className="opacity-50">
-                <Date dateString={date} />
+                {/* <Date dateString={date} /> */}
               </div>
             </MyLink>
           </li>
