@@ -66,7 +66,7 @@ export function Footer() {
             NeoDB
           </a>
         </li>
-        <li className="border-b">
+        <li className="basis-20">
           <a href="/rss.xml">RSS</a>
         </li>
       </ul>
